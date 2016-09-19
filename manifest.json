@@ -2,13 +2,6 @@
   "version": "2.6",
   "name": "dark.",
   "theme": {
-    "images" : {
-      "theme_frame" : "images/theme_frame.png",
-      "theme_frame_overlay" : "images/theme_frame.png",
-      "theme_toolbar" : "images/theme_toolbar.png",
-      "theme_ntp_background" : "images/theme_ntp_background_norepeat.png",
-      "theme_ntp_attribution" : "images/attribution.png"
-    },
     "colors" : {
       "frame" : [16, 16, 16],
       "toolbar" : [32, 32, 32],
