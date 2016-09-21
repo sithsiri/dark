@@ -1,20 +1,33 @@
 {
-  "version": "2.6",
+  "version": "0.1.0",
   "name": "dark.",
+  "manifest_version": 2,       /*Required   */
   "theme": {
+  "images": {
+	  "theme_ntp_background" : "images/ntp_background.png",
+	  "theme_frame" : "images/frame.png",
+	  "theme_frame_inactive" : "images/frame_inactive.png"
+	},
     "colors" : {
-      "frame" : [16, 16, 16],
-      "toolbar" : [32, 32, 32],
+      "frame" : [8, 8, 8],
+	  "frame_inactive" : [16, 16, 16],
+      "toolbar" : [16, 16, 16],
       "ntp_text" : [128, 128, 128],
       "ntp_link" : [128, 128, 128],
       "ntp_section" : [32, 32, 32],
-      "button_background" : [32, 32, 32]
+	  "ntp_header" : [32, 32, 32],
+	  "tab_text" : [128, 128, 128],
+	  "tab_background_text" : [160, 160, 160],
+	  "bookmark_text" : [128, 128, 128]
     },
     "tints" : {
-      "buttons" : [0.33, 0.5, 0.47]
+      "buttons" : [0.5, 0, 0.55],
+	  "background_tab" : [0.5, 0, 0.55]
     },
     "properties" : {
-      "ntp_background_alignment" : "bottom"
+	// makes Google logo white
+	  "ntp_logo_alternate" : 1,
+	  "ntp_background_repeat" : "repeat"
     }
   }
 }
