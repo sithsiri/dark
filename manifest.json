@@ -1,23 +1,19 @@
 {
   "version": "0.1.0",
   "name": "dark.",
-  "manifest_version": 2,       /*Required   */
+  "manifest_version": 2,       // Required
   "theme": {
   "images": {
 	  "theme_ntp_background" : "images/ntp_background.png",
-	  "theme_frame" : "images/frame.png",
-	  "theme_frame_inactive" : "images/frame_inactive.png"
+	  "theme_frame" : "images/frame.png"
 	},
     "colors" : {
       "frame" : [8, 8, 8],
-	  "frame_inactive" : [16, 16, 16],
       "toolbar" : [16, 16, 16],
       "ntp_text" : [128, 128, 128],
-      "ntp_link" : [128, 128, 128],
-      "ntp_section" : [32, 32, 32],
-	  "ntp_header" : [32, 32, 32],
+	  "ntp_background" : [8, 8, 8],
 	  "tab_text" : [128, 128, 128],
-	  "tab_background_text" : [160, 160, 160],
+	  "tab_background_text" : [128, 128, 128],
 	  "bookmark_text" : [128, 128, 128]
     },
     "tints" : {
