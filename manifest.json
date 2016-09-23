@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.1",
   "name": "dark.",
   "manifest_version": 2,       // Required
   "theme": {
@@ -8,9 +8,9 @@
 	  "theme_frame" : "images/frame.png"
 	},
     "colors" : {
-      "frame" : [8, 8, 8],
-      "toolbar" : [16, 16, 16],
-      "ntp_text" : [128, 128, 128],
+	  "frame" : [8, 8, 8],
+	  "toolbar" : [16, 16, 16],
+	  "ntp_text" : [128, 128, 128],
 	  "ntp_background" : [8, 8, 8],
 	  "tab_text" : [128, 128, 128],
 	  "tab_background_text" : [128, 128, 128],
@@ -18,11 +18,11 @@
     },
     "tints" : {
 	  "frame_inactive" : [0.5, 0, 0.525],
-      "buttons" : [0.5, 0, 0.55],
+	  "buttons" : [0.5, 0, 0.55],
 	  "background_tab" : [0.5, 0, 0.55]
     },
     "properties" : {
-	// makes Google logo white
+	  // makes Google logo white
 	  "ntp_logo_alternate" : 1,
 	  "ntp_background_repeat" : "repeat"
     }
