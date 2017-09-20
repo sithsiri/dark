@@ -1,7 +1,7 @@
 {
   "version": "0.2.1",
   "name": "dark",
-  "manifest_version": 2,       // Required
+  "manifest_version": 2,
   "theme": {
   "images": {
 	  "theme_ntp_background" : "images/ntp_background.png",
@@ -22,7 +22,6 @@
 	  "background_tab" : [0.5, 0, 0.55]
     },
     "properties" : {
-	  // makes Google logo white
 	  "ntp_logo_alternate" : 1,
 	  "ntp_background_repeat" : "repeat"
     }
