@@ -1,29 +1,29 @@
 {
-  "version": "0.2.1",
-  "name": "dark",
-  "manifest_version": 2,
-  "theme": {
-  "images": {
-	  "theme_ntp_background" : "images/ntp_background.png",
-	  "theme_frame" : "images/frame.png"
-	},
-    "colors" : {
-	  "frame" : [8, 8, 8],
-	  "toolbar" : [16, 16, 16],
-	  "ntp_text" : [128, 128, 128],
-	  "ntp_background" : [8, 8, 8],
-	  "tab_text" : [128, 128, 128],
-	  "tab_background_text" : [128, 128, 128],
-	  "bookmark_text" : [128, 128, 128]
-    },
-    "tints" : {
-	  "frame_inactive" : [0.5, 0, 0.525],
-	  "buttons" : [0.5, 0, 0.55],
-	  "background_tab" : [0.5, 0, 0.55]
-    },
-    "properties" : {
-	  "ntp_logo_alternate" : 1,
-	  "ntp_background_repeat" : "repeat"
-    }
-  }
+	"version": "0.2.1",
+	"name": "dark",
+	"manifest_version": 2,
+	"theme": {
+		"images": {
+			"theme_ntp_background" : "images/ntp_background.png",
+			"theme_frame" : "images/frame.png"
+		},
+		"colors" : {
+			"frame" : [8, 8, 8],
+			"toolbar" : [16, 16, 16],
+			"ntp_text" : [128, 128, 128],
+			"ntp_background" : [8, 8, 8],
+			"tab_text" : [128, 128, 128],
+			"tab_background_text" : [128, 128, 128],
+			"bookmark_text" : [128, 128, 128]
+		},
+		"tints" : {
+			"frame_inactive" : [0.5, 0, 0.525],
+			"buttons" : [0.5, 0, 0.55],
+			"background_tab" : [0.5, 0, 0.55]
+		},
+		"properties" : {
+			"ntp_logo_alternate" : 1,
+			"ntp_background_repeat" : "repeat"
+		}
+	}
 }
